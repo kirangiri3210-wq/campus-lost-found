@@ -41,6 +41,8 @@ GoogleService-Info.plist
 
 # Local AI/editor tooling
 .claude/
+/AGENTS.md
+/CLAUDE.md
 
 # Unused static web mock (kept on disk; not the Expo app)
 /index.html
