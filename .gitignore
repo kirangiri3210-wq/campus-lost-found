@@ -30,8 +30,22 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+# Environment and private credentials
+.env
+.env.*
+!.env.example
+*serviceAccount*.json
+*-firebase-adminsdk-*.json
+google-services.json
+GoogleService-Info.plist
+
+# Local AI/editor tooling
+.claude/
+
+# Unused static web mock (kept on disk; not the Expo app)
+/index.html
+/Script.js
+/style.css
 
 # typescript
 *.tsbuildinfo
