@@ -6,6 +6,28 @@ This is a **capstone / coursework project**, not an official Southwest Minnesota
 
 The React Native application lives in `mobile/` (`mobile/App.tsx`).
 
+## Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/01-dashboard.png)
+
+### Report lost item
+
+![Report lost item](screenshots/02-report-lost.png)
+
+### Browse items
+
+![Browse items](screenshots/03-browse-items.png)
+
+### Login
+
+![Login](screenshots/04-login.png)
+
+### Messages
+
+![Messages](screenshots/05-messages.png)
+
 ## Why I built it
 
 Campus lost-and-found is usually a bulletin board, email thread, or front desk. I wanted a working mobile flow students could actually try: report an item, attach a photo, find likely counterparts, and message the other person until the item is marked recovered. The project is a learning exercise in Expo, TypeScript, and Firebase (Auth, Firestore, Storage), with room to move toward a more production-ready campus tool later.
